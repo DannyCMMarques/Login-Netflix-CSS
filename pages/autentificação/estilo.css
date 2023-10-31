@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body::before {
+  content: "";
+  background: url(./../../public/assets/imagens/logo2.jpg);
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  
+}
+
+body {
+  background: rgba(0, 0, 0, 0.95);
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.logo {
+  width: 250px;
+  padding-top: 40px;
+  padding-left: 132px;
+
+}
+
+.entrar {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 55px;
+  color: white;
+  margin: 0 auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.75);
+  radius: 4px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  width: 517px;
+  height: auto;
+  margin-bottom: 90px;
+  min-height: 625px;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+input.email,
+input.senha {
+  margin: 0 auto;
+  padding: 16px 20px 0;
+  height: 60px;
+  background: #333;
+  line-height: 50px;
+
+  margin-top: 20px;
+  width: 476px;
+  font-size: 25px;
+  line-height: 50px;
+  border: none;
+  border-radius: 6px;
+}
+
+.botao {
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  background: #e50914;
+  padding: 16px;
+  cursor: pointer;
+  line-height: 1em;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  color: white;
+  font-size: 25px;
+}
+
+.botao:hover {
+  background: #f74b54;
+}
+
+.lembre {
+  margin-top: 5px;
+  color: gray;
+  font-size: 20px;
+  text-align: left;
+  line-height: 30px;
+  float: left;
+}
+
+.teste {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+.ajuda {
+  margin-top: 5px;
+  color: gray;
+  font-size: 20px;
+  text-align: left;
+  line-height: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+.ajuda:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+}
+
+.assinatura {
+  text-align: left;
+  line-height: 32px;
+  color: #737373;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 32px;
+}
+
+.final {
+  margin-top: 11px;
+  color: #8c8c8c;
+  font-size: 18px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.color {
+  color: #0071eb;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+}
+
+.color:hover {
+  color: #0d3866;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.entrar {
+  text-align: start;
+  margin: 0;
+  margin-bottom: 39px;
+  font-weight: bold;
+}
+
+.conteiner2 {
+  background: rgba(0, 0, 0, 0.85);
+  radius: 4px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  height: 235px;
+  margin-bottom: 0px;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.duvida {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 32px;
+  color: #737373;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+
+.links {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-decoration: none;
+  margin-right: 2%;
+}
+
+a link .links {
+  color: grey;
+}
+
+.acessos {
+  display: flex;
+  justify-content: center;
+}
+
+.fonte {
+  color: gray;
+  text-decoration: none;
+}
+
+.fonte:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.ass2 {
+  color: white;
+  text-decoration: none;
+}
+
+.ass2:hover {
+  text-decoration: underline;
+}
+
+.idiomas {
+  width: 183px;
+  height: 69px;
+
+  background-color: black;
+  color: #e50914;
+  padding: 10px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 23px;
+  border: gray 1px solid;
+  margin-right: 976px;
+}
+
+.idiomas:hover {}
+
+.idiomas option {
+  background: black;
+  color: gray;
+  width: 165px;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 2px;
+}
+
+.lingua {
+  width: 165px;
+  height: 74px;
+  font-size: 15px;
+  text-align: justify;
+  border: none;
+}
+
+
+.buttonLinguagem {
+  display: flex;
+  padding-left: 10%;
+}
