@@ -6,7 +6,9 @@ Este projeto é uma página de login inspirada na famosa plataforma de streaming
 Confira uma prévia da página de login inspirada na Netflix:
 
 
-👉 Acesse o site aqui
+![image](https://github.com/DannyCMMarques/Login-Netflix-CSS/assets/147952313/88b7230c-e39c-49a0-bcb9-11a0fbdc22c4)
+
+![image](https://github.com/DannyCMMarques/Login-Netflix-CSS/assets/147952313/f4cdb5ce-6410-47c8-9a79-41309df2e409)
 
 
 ## Feedbacks e Contribuições 🤝
